@@ -6,11 +6,11 @@ namespace PaymentContext.Domain.ValueObjects
 {
   public class Address : ValueObject
   {
-    public Address(string street, string number, string Neighborhood, string city, string state, string country, string zipCode)
+    public Address(string street, string number, string neighborhood, string city, string state, string country, string zipCode)
     {
       Street = street;
       Number = number;
-      Neighborhood = Neighborhood;
+      Neighborhood = neighborhood;
       City = city;
       State = state;
       Country = country;
